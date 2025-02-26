@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfolio de Erwann Irouche, administrateur systèmes et réseaux et passionné par cybersécurité.">
+    <meta name="keywords" content="portfolio, développement web, projets, compétences, technologies">
+    <meta name="author" content="Erwann IROUCHE">
+      
+    <title>Portfolio - Erwann Irouche</title>
+    <!--------------UNICONS---------------->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+    <!--------------CSS---------------->
+    <link rel="stylesheet" href="style.css">
+    <!--------------FAVICON---------------->
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <!--------------JS---------------->
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <div class="container">
+    <!-------------- HEADER ---------------->
+        <nav id="header">
+            <div class="nav-logo">
+                <p class="nav-name">Atom</p>
+                <span>.</span>
+            </div>
+            <div class="nav-menu" id="myNavMenu">
+                <ul class="nav_menu_list">
+                    <li class="nav_list">
+                        <a href="#home" class="nav-link active-link">Home</a>
+                        <div class="circle"></div>
+                    </li>
+                    <li class="nav_list">
+                        <a href="#about" class="nav-link">About</a>
+                        <div class="circle"></div>
+                    </li>
+                    <li class="nav_list">
+                        <a href="#skills" class="nav-link">Skills</a>
+                        <div class="circle"></div>
+                    </li>
+                    <li class="nav_list">
+                        <a href="#projects" class="nav-link">Projects</a>
+                        <div class="circle"></div>
+                    </li>
+                    <li class="nav_list">
+                        <a href="#contact" class="nav-link">Contact</a>
+                        <div class="circle"></div>
+                    </li>
+                </ul>
+            </div>
+            <div class="nav-button">
+                <a href="CV.pdf" class="btn" target="_blank">
+                    Download CV <i class="uil uil-file-alt"></i>
+                </a>
+            </div>            
+            <div class="nav-menu-btn">
+                <i class="uil uil-bars" onclick="myMenuFunction()"></i>
+            </div>
+        </nav>
+
+    <!-------- MAIN ----------->  
+        <main class="wrapper">
+            <!-------- FEATURED BOX ----------->  
+            <section class="featured-box" id="home">
+                <div class="featured-text">
+                    <div class="featured-text-card">
+                        <span>Hello World,</span>
+                    </div>
+                    <div class="featured-name">
+                        <span class="typedText"></span>
+                    </div>
+                    <div class="featured-text-info">
+                        <p>IT Student | Future Networks & Systems Specialist | Passionate about Cybersecurity</p>
+                    </div>
+                    <div class="featured-text-btn">
+                        <a href="CV.pdf" class="button" target="_blank">
+                            Download CV <i class="uil uil-file-alt"></i>
+                        </a>
+                    </div>
+                    <div class="social_icons">
+                        <a href="https://github.com/4t0m3" class="icons"><i class="uil uil-github"></i></a>
+                        <a href="https://www.linkedin.com/in/erwann-i/" class="icons"><i class="uil uil-linkedin"></i></a>
+                    </div>
+                    
+                </div>
+                <div class="featured-image">
+                    <div class="image">
+                        <img src="assets/images/avatar.jpg" alt="avatar">
+                    </div>
+                </div>
+                <div class="scroll-icon-bx">
+                    <a href="#about" class="scroll-btn">
+                        <i class="uil uil-mouse-alt"></i>
+                        <p>Scroll Down</p>
+                    </a>
+                </div>
+            </section>
+
+            <!-------- ABOUT ----------->  
+            <section class="section" id="about">
+                <div class="top-header">
+                    <h1>About Me</h1>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <div class="about-info">
+                            <h3>My introduction</h3>
+                            <p>Passionate about networks and systems, I am developing my skills to become an expert in this field, with a long-term vision of integrating cybersecurity into my career.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-------- SKILLS SECTION -------->  
+            <section class="section" id="skills">
+                <div class="top-header">
+                    <h1>Skills</h1>
+                </div>
+                <div class="cards">
+                    <div class="card">
+                        <i class="uil uil-server"></i>
+                        <h2>Networks</h2>
+                        <p>- Router & switch configuration</p>
+                        <p>- User management via AD</p>
+                        <p>- Firewall configuration</p>
+                        <p>- IT infrastructure maintenance</p>
+                        <p>- Operating systems (Windows & Linux)</p>
+                        <p>- IPv4, IPv6, STP, NAT/PAT, VRRP/GLBP, OSPF, EIGRP, BGP/MP-BGP</p>
+                    </div>
+                
+                    <div class="card">
+                        <i class="uil uil-shield-check"></i>
+                        <h2>Cybersecurity</h2>
+                        <p>- GDPR compliance</p>
+                        <p>- Cryptography</p>
+                        <p>- Personal data protection</p>
+                        <p>- Vulnerabilities & risks</p>
+                        <p>- ARP/DHCP/IP spoofing/poisoning</p>
+                        <p>- Buffer overflow</p>
+                        <p>- Firewalls & IDS/IPS</p>
+                        <p>- SIEM & intrusion testing</p>
+                        <p>- DDOS protection</p>
+                    </div>
+                
+                    <div class="card">
+                        <i class="uil uil-desktop"></i>
+                        <h2>Code</h2>
+                        <p>- Python</p>
+                        <p>- Bash</p>
+                        <p>- PowerShell</p>
+                        <p>- Golang</p>
+                        <p>- HTML</p>
+                        <p>- CSS</p>
+                        <p>- PHP</p>
+                    </div>
+                
+                    <div class="card">
+                        <i class="uil uil-setting"></i>
+                        <h2>Various tools</h2>
+                        <p>- VMware, Hyper-V, Proxmox, Docker</p>
+                        <p>- AWS, VMware ESXi, vCenter, vSphere (vMotion, HA, Distributed Switch)</p>
+                        <p>- Ansible, Zabbix, Git/GitLab, Puppet</p>
+                        <p>- Microsoft Office</p>
+                        <p>- O365, GLPI, ITIL methods</p>
+                    </div>
+                
+                    <div class="card">
+                        <i class="uil uil-database"></i>
+                        <h2>Database Management</h2>
+                        <p>- MariaDB</p>
+                        <p>- SQL</p>
+                    </div>
+                
+                    <div class="card">
+                        <i class="uil uil-chart-pie"></i>
+                        <h2>Management & Communication</h2>
+                        <p>- AGILE methods (Kanban, SCRUM)</p>
+                        <p>- Legal concepts (general, intellectual property, privacy)</p>
+                    </div>
+                </div>
+                
+            </section>
+            <!-------- PROJECT BOX ----------->
+            <section class="section" id="projects">
+                <div class="top-header">
+                    <h1>Projects</h1>
+                </div>
+                <div class="project-container">
+                    <div class="project-box">
+                        <i class="fas fa-terminal"></i>
+                        <h3><a href="https://github.com/4t0m3/Aggregate-log-level">Aggregate log-level</a></h3>
+                        <label>Bash</label>
+                    </div>
+                    <div class="project-box">
+                        <i class="fab fa-golang"></i>
+                        <h3><a href="https://github.com/4t0m3/MyGB">Gobuster</a></h3>
+                        <label>Gobuster in Golang</label>
+                    </div>
+                    <div class="project-box">
+                        <i class="uil uil-briefcase-alt"></i>
+                        <h3><a href="https://github.com/4t0m3/portfolio">Portfolio</a></h3>
+                        <label>Code Source</label>
+                    </div>
+                </div>
+            </section>            
+            <!-------- CONTACT BOX ----------->  
+            <section class="section" id="contact">
+                <div class="top-header">
+                  <h1>Contact Me</h1>
+                  <span>Do you have a project in mind? Contact me here!</span>
+                </div>
+                <div class="row">
+                  <div class="col">
+                    <div class="contact-info">
+                      <h2>Find me <i class="uil uil-arrow-down"></i></h2>
+                      <p><i class="uil uil-envelope"></i> Email: erwann.i69@gmail.com</p>
+                    </div>
+                  </div>
+                  <div class="col">
+                    <div class="form-control">
+                        <div class="form-inputs">
+                            <input type="text" class="input-field" placeholder="Name">
+                            <input type="text" class="input-field" placeholder="Email">
+                        </div>
+                        <div class="text-area">
+                            <textarea placeholder="Message"></textarea>
+                        </div>
+                        <div class="form-button">
+                            <button class="btn">Send <i class="uil uil-message"></i></button>
+                        </div>
+                    </div>
+                  </div>
+                </div>
+            </section>
+        </main>   
+        <!-- --------------- FOOTER --------------- -->
+    <footer>
+        <div class="top-footer">
+            <p>Erwann Irouche .</p>
+        </div>
+        <div class="middle-footer">
+            <ul class="footer-menu">
+                <li class="footer_menu_list">
+                    <a href="#home">Home</a>
+                </li>
+                <li class="footer_menu_list">
+                    <a href="#about">About</a>
+                </li>
+                <li class="footer_menu_list">
+                    <a href="#skills">Skills</a>
+                </li>
+                <li class="footer_menu_list">
+                    <a href="#projects">Projects</a>
+                </li>
+                <li class="footer_menu_list">
+                    <a href="#contact">Contact</a>
+                </li>
+            </ul>
+        </div>
+        <div class="footer-social-icons">
+            <a href="https://github.com/4t0m3"><div class="icon"><i class="uil uil-github"></i></div></a>
+            <a href="https://www.linkedin.com/in/erwann-i/"><div class="icon"><i class="uil uil-linkedin"></i></div></a>
+        </div>
+        <div class="bottom-footer">
+            <p>Copyright &copy; <a href="#home" style="text-decoration: none;">Erwann Irouche</a> - All rights reserved</p>
+        </div>
+    </footer>
+    </div>
+    <script src="https://kit.fontawesome.com/50e935e823.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+</body>
+</html>
